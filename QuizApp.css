@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rosybrown;
+  text-align: center;
+  padding: 2rem;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  background: rgb(112, 8, 8);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.option {
+  margin: 0.5rem 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid orange;
+  border-radius: 4px;
+}
+.option.selected {
+  background-color: green;
+}
